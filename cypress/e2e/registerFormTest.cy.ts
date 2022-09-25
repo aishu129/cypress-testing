@@ -55,7 +55,6 @@ describe('Testing entering wrong values in fields', ()=> {
     cy.get('#phone').type('123456789')
     cy.get('#submit').click()
     cy.get('.error').should("have.css","display","block")
-
   })
   
 })
